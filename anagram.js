@@ -7,3 +7,6 @@ for (let i = 0; i < kelime1.length; i++){
         continue;
     }
 }
+
+let sortedWord1 = kelime1[i].split('').sort().join('');
+let sortedWord2 = kelime2[i].split('').sort().join('');

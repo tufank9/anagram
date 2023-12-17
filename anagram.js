@@ -10,3 +10,9 @@ for (let i = 0; i < kelime1.length; i++){
 
 let sortedWord1 = kelime1[i].split('').sort().join('');
 let sortedWord2 = kelime2[i].split('').sort().join('');
+
+if (sortedWord1 === sortedWord2) {
+    console.log(`${kelime1[i]} ve ${kelime2[i]} anagramdır.`);
+} else {
+    console.log(`${kelime1[i]} ve ${kelime2[i]} anagram değildir.`);
+}
